@@ -184,13 +184,11 @@ export default class Voting extends React.Component {
                         <p />
                         <center>
                           <button className="btn-outline btn btn-secondary mt-6">
-                            <Link
-                              href="/results"
-                              style={{
-                                color: 'black',
-                                textDecoration: 'underline',
-                              }}
-                            >
+                            <Link href="/results"
+                                  style={{
+                                    color: 'black',
+                                    textDecoration: 'underline',
+                                  }}>
                               See Results
                             </Link>
                           </button>
@@ -213,7 +211,8 @@ export default class Voting extends React.Component {
                     <center>
                       <p>You're not registered. Please register first.</p>
                       <br />
-                      <Link href="/registration" className="text-black ">
+                      <Link href="/registration"
+                            className="text-black ">
                         <span className="cursor-pointer text-fuchsia-400">
                           Registration Page
                         </span>
@@ -236,10 +235,8 @@ export default class Voting extends React.Component {
                 ) : (
                   <>
                     {this.state.candidates.map(this.renderCandidates)}
-                    <div
-                      className="container-item"
-                      style={{ border: '1px solid black' }}
-                    >
+                    <div className="container-item"
+                         style={{ border: '1px solid black' }}>
                       <center>Made with � by Team Cavaliars�</center>
                     </div>
                   </>
@@ -252,10 +249,8 @@ export default class Voting extends React.Component {
                 <center>
                   <h3>The Election ended.</h3>
                   <br />
-                  <Link
-                    href="/results"
-                    style={{ color: 'black', textDecoration: 'underline' }}
-                  >
+                  <Link href="/results"
+                        style={{ color: 'black', textDecoration: 'underline' }}>
                     <span className="btn btn-success">See results</span>
                   </Link>
                 </center>

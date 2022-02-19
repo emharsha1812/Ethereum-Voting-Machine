@@ -10,5 +10,7 @@ import Election from '../components/Election'
 //   return <div>{address ? <Election address={address} /> : <Login />}</div>
 // }
 export default function Home() {
-  return <div><Election/></div>
+  return <div>
+    <Election/>
+  </div>
 }

@@ -99,12 +99,15 @@ code {
   margin-top: 11px;
   margin-bottom: 11px px;
 }
+
 .info {
   background-color: #ddffff;
 }
+
 .attention {
   background-color: #fffbdd;
 }
+
 .success {
   background-color: #ddffdd;
 }
