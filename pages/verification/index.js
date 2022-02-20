@@ -164,7 +164,7 @@ export default class Registration extends React.Component {
       return (
         <>
           {this.state.isAdmin ? <Navbaradmin /> : <Navbarvoter />}
-          <center>Loading Web3, accounts, and contract...</center>
+          <center>Loading accounts and data, please wait...</center>
         </>
       )
     }
