@@ -1,40 +1,40 @@
 {
-  "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/injected-connector": {
-    "id": "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/injected-connector",
+  "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/injected-connector": {
+    "id": "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/injected-connector",
     "files": []
   },
-  "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/magic-connector": {
-    "id": "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/magic-connector",
+  "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/magic-connector": {
+    "id": "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/magic-connector",
     "files": [
       "static/chunks/node_modules_web3-react_magic-connector_dist_magic-connector_esm_js.js"
     ]
   },
-  "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/walletconnect-connector": {
-    "id": "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/walletconnect-connector",
+  "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/walletconnect-connector": {
+    "id": "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/walletconnect-connector",
     "files": [
       "static/chunks/node_modules_web3-react_walletconnect-connector_dist_walletconnect-connector_esm_js.js"
     ]
   },
-  "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/walletlink-connector": {
-    "id": "../node_modules/@3rdweb/hooks/dist/3rdweb-hooks.browser.esm.js -> @web3-react/walletlink-connector",
+  "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/walletlink-connector": {
+    "id": "..\\node_modules\\@3rdweb\\hooks\\dist\\3rdweb-hooks.browser.esm.js -> @web3-react/walletlink-connector",
     "files": [
       "static/chunks/node_modules_web3-react_walletlink-connector_dist_walletlink-connector_esm_js.js"
     ]
   },
-  "../node_modules/@web3-react/magic-connector/dist/magic-connector.esm.js -> magic-sdk": {
-    "id": "../node_modules/@web3-react/magic-connector/dist/magic-connector.esm.js -> magic-sdk",
+  "..\\node_modules\\@web3-react\\magic-connector\\dist\\magic-connector.esm.js -> magic-sdk": {
+    "id": "..\\node_modules\\@web3-react\\magic-connector\\dist\\magic-connector.esm.js -> magic-sdk",
     "files": [
       "static/chunks/node_modules_magic-sdk_dist_module_index_js.js"
     ]
   },
-  "../node_modules/@web3-react/walletconnect-connector/dist/walletconnect-connector.esm.js -> @walletconnect/ethereum-provider": {
-    "id": "../node_modules/@web3-react/walletconnect-connector/dist/walletconnect-connector.esm.js -> @walletconnect/ethereum-provider",
+  "..\\node_modules\\@web3-react\\walletconnect-connector\\dist\\walletconnect-connector.esm.js -> @walletconnect/ethereum-provider": {
+    "id": "..\\node_modules\\@web3-react\\walletconnect-connector\\dist\\walletconnect-connector.esm.js -> @walletconnect/ethereum-provider",
     "files": [
       "static/chunks/node_modules_walletconnect_ethereum-provider_dist_esm_index_js.js"
     ]
   },
-  "../node_modules/@web3-react/walletlink-connector/dist/walletlink-connector.esm.js -> walletlink": {
-    "id": "../node_modules/@web3-react/walletlink-connector/dist/walletlink-connector.esm.js -> walletlink",
+  "..\\node_modules\\@web3-react\\walletlink-connector\\dist\\walletlink-connector.esm.js -> walletlink": {
+    "id": "..\\node_modules\\@web3-react\\walletlink-connector\\dist\\walletlink-connector.esm.js -> walletlink",
     "files": [
       "static/chunks/node_modules_walletlink_dist_index_js.js"
     ]
