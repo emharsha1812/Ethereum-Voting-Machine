@@ -59,3 +59,35 @@ Deploy smart contract to the (local) blockchain
    npm run dev
    ```
 > Note: If you face text visibility errors on client side, try changing your browser to dark mode.
+
+## Polygon
+
+Repeat all the above steps similarily as done before 
+ ```shell
+   ganache-cli
+   ```
+1. Now copy one of the private keys given by ganache-cli to .secrets file present in root folder
+
+1. Now we need to create a new network i.e. Mumbai faucet 
+1. Next, click on Networks and then Add Network:
+1. Here, we will add the following configurations for the Mumbai test network as listed here:
+Network Name: Mumbai TestNet
+New RPC URL: https://rpc-mumbai.maticvigil.com
+Chain ID: 80001
+Currency Symbol: Matic
+1. Save this, then you should be able to switch to and use the new network!
+
+Finally, you will need some testnet Matic tokens in order to interact with the applications.
+To get these, you can visit the [Matic Faucet](https://faucet.polygon.technology/), inputting the address of the wallets that you would like to request the tokens.
+1. Now we have some test Matic in our accounts (typically 0.5 Matic)
+
+1. Run this command in root of the project directory:
+```shell
+$ truffle migrate --reset --network matic
+```
+Contract will be deployed on Matic's Mumbai Testnet
+
+1. finally run 
+```shell
+$ npm run dev
+```
