@@ -2,10 +2,10 @@ import React from 'react'
 import Navbaradmin from '../../components/Navbaradmin'
 
 import Navbarvoter from '../../components/Navbarvoter'
-import getWeb3 from "../../getWeb3";
-import Election from "../../client/src/contracts/Election.json";
+import getWeb3 from '../../getWeb3'
+import Election from '../../client/src/contracts/Election.json'
 
-import AdminOnly from '../../components/Adminonly'; 
+import AdminOnly from '../../components/Adminonly'
 
 // import { useEffect } from 'react'
 export default class AddCandidate extends React.Component {
@@ -119,14 +119,17 @@ export default class AddCandidate extends React.Component {
       <>
         <Navbaradmin />
         <div className="">
-          <h2>Add a new candidate</h2>
-          <small>Total candidates: {this.state.candidateCount}</small>
+          <h1 className="text-xl text-gray-100">Add a new candidate</h1>
+          <h3 className="mx-auto">
+            Total candidates:{' '}
+            <span className="text-green-400">{this.state.candidateCount}</span>
+          </h3>
           <div className="">
             <form className="form">
               <label className="">
                 Header
                 <input
-                  className={'input-ac'}
+                  className="border-1 m-2 my-4 h-8 rounded-md border border-gray-200 px-4 text-black outline-blue-400"
                   type="text"
                   placeholder="eg. Marcus"
                   value={this.state.header}
@@ -136,14 +139,14 @@ export default class AddCandidate extends React.Component {
               <label className={'label-ac'}>
                 Slogan
                 <input
-                  className={'input-ac'}
+                  className="border-1 m-2 my-4 h-8 rounded-md border border-gray-200 px-4 text-black outline-blue-400"
                   type="text"
                   placeholder="eg. It is what it is"
                   value={this.state.slogan}
                   onChange={this.updateSlogan}
                 />
               </label>
-              <button
+              {/* <button
                 className="btn-add"
                 disabled={
                   this.state.header.length < 3 || this.state.header.length > 21
@@ -151,6 +154,16 @@ export default class AddCandidate extends React.Component {
                 onClick={this.addCandidate}
               >
                 Add
+              </button> */}
+              <button
+                className="ml-4"
+                class="btn btn-success"
+                disabled={
+                  this.state.header.length < 3 || this.state.header.length > 21
+                }
+                onClick={this.addCandidate}
+              >
+                Add Candidate
               </button>
             </form>
           </div>
@@ -180,7 +193,7 @@ export function loadAdded(candidates) {
   }
   return (
     <div className="container-main" style={{ borderTop: '1px solid' }}>
-      <div className="">
+      <div className="text-lg">
         <center>Candidates List</center>
       </div>
       {candidates.length < 1 ? (
@@ -189,11 +202,11 @@ export function loadAdded(candidates) {
         </div>
       ) : (
         <div
-        className="container-item"
-        style={{
-          display: 'block',
-          backgroundColor: '#DDFFFF',
-        }}
+          className="container-item"
+          style={{
+            display: 'block',
+            backgroundColor: 'gray',
+          }}
         >
           {candidates.map(renderAdded)}
         </div>

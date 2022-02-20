@@ -59,7 +59,7 @@
   "sourceMap": "66:345:1:-;;;235:56;8:9:-1;5:2;;;30:1;27;20:12;5:2;235:56:1;274:10;266:5;;:18;;;;;;;;;;;;;;;;;;66:345;;;;;;",
   "deployedSourceMap": "66:345:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:345:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;118:39;;;:::i;:::-;;;;;;;;;;;;;;;;;;;92:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;297:112;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;297:112:1;;;;;;;;;;;;;;;;;:::i;:::-;;118:39;;;;:::o;92:20::-;;;;;;;;;;;;;:::o;297:112::-;214:5;;;;;;;;;;;200:19;;:10;:19;;;196:26;;;393:9;366:24;:36;;;;196:26;297:112;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.21 <0.8.0;\n\ncontract Migrations {\n    address public owner;\n    uint256 public last_completed_migration;\n\n    modifier restricted() {\n        if (msg.sender == owner) _;\n    }\n\n    constructor() public {\n        owner = msg.sender;\n    }\n\n    function setCompleted(uint256 completed) public restricted {\n        last_completed_migration = completed;\n    }\n}\n",
-  "sourcePath": "/home/legion/Desktop/Election-blockchain-class/contracts/Migrations.sol",
+  "sourcePath": "/home/legion/Desktop/EVM/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -979,15 +979,75 @@
       "address": "0x3A513Add162879e92caAA7ABB4F6143485547051",
       "transactionHash": "0x3493ef3e9575108827f387f00e8b75b32829e0234ea055d2fd2957bcc7a78da5"
     },
-    "1645202362094": {
+    "1645173658100": {
       "events": {},
       "links": {},
-      "address": "0x54e4E992d7669FAA38107A746899CdA594564588",
-      "transactionHash": "0xf1819f1ae0850dc905a7b294c629a2755756b929cacb4ab545f043edba681d8a"
+      "address": "0x228Fa42CCf643489b9ede0ED50840966bb1c0e67",
+      "transactionHash": "0xe5f63b9ac6ca37b5a12d55b47a1b4ca99587989352506e11137291ff41c1cc56"
+    },
+    "1645196139591": {
+      "events": {},
+      "links": {},
+      "address": "0x880e90237103ff5F3958f2e13AFf177a303D6312",
+      "transactionHash": "0x20cb8830ca4102b3420ecd64c34b8fd8e1e1cab167c49378a768fac6dfe13772"
+    },
+    "1645205593530": {
+      "events": {},
+      "links": {},
+      "address": "0xBC994d1Af3f198B3952AA27A2aDF67dDA3f6034b",
+      "transactionHash": "0x47cb68d3b7840f7cc03f2f1c4c2475da3eaba7c5a505404e57e310bf21a7740a"
+    },
+    "1645206308602": {
+      "events": {},
+      "links": {},
+      "address": "0x93F95A6F023Dd650c3133ee4d61D1b05E9E17e70",
+      "transactionHash": "0x6849fbd57965e394a6810a520f3bb8d941b9dbd77ec8787179afef67a5ae07f2"
+    },
+    "1645261135350": {
+      "events": {},
+      "links": {},
+      "address": "0x8CC154146BE014b2b8B48de27c97fFf0A04c9d41",
+      "transactionHash": "0x2defea029d0c900b8210d99541576bab9ba28b75d23cd1bd48bb6e6833acbeec"
+    },
+    "1645262965996": {
+      "events": {},
+      "links": {},
+      "address": "0x36E3a0A0275da3Ec36e9C0DFcb051981e8dd9843",
+      "transactionHash": "0xcfb08c106f5235ff7149551f52272fc5ae92b6c03d6d89b6753ca2c81f5de0dd"
+    },
+    "1645264456306": {
+      "events": {},
+      "links": {},
+      "address": "0xA87EE48776B7bAb74c58fb794d17B4735c0d742B",
+      "transactionHash": "0xbbd5d7b05a5614f2611b721ff4fc9bc736a8e637aefa2d22448ebfc122c14d61"
+    },
+    "1645334150904": {
+      "events": {},
+      "links": {},
+      "address": "0x2661F01042D65d70Cc298490f754a49A38b5029A",
+      "transactionHash": "0x6620347aec0a1605be9c8766a03b1591537196b1681dffd8d2ef8034f403a2a0"
+    },
+    "1645348172126": {
+      "events": {},
+      "links": {},
+      "address": "0xe697C37aa85348Bf121fc3356f7BE94967a049Da",
+      "transactionHash": "0xa430b92120e92f6caa06d2f087b08282aa44c3f29f6b5130071c2e6d5b8e7560"
+    },
+    "1645348742875": {
+      "events": {},
+      "links": {},
+      "address": "0x542E9df3448Faf71A4439B0F2246E6b578B74C29",
+      "transactionHash": "0x76f9a8878fc0f2191b0194007afad9592a097b5d07c65efac4b5ef5052f5677d"
+    },
+    "1645348964394": {
+      "events": {},
+      "links": {},
+      "address": "0xdC5C11C69a80b3108297EAa1C0Db3beBBe8D43c5",
+      "transactionHash": "0xb11334cdfb7628a8ba85ead43d1ad1a9c53abd0755091a8512ac2896170e6e4b"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-02-18T17:10:07.063Z",
+  "updatedAt": "2022-02-20T09:22:58.426Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
