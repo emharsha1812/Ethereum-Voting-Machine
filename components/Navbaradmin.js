@@ -9,8 +9,6 @@ import { GrThreeDEffects } from 'react-icons/gr'
 import { IconContext } from 'react-icons'
 import { TiTick } from 'react-icons/ti'
 import Link from 'next/link'
-import { GrCircleInformation } from 'react-icons/gr'
-import { IconContext } from 'react-icons'
 
 const Navbar = () => {
   return (
@@ -62,15 +60,6 @@ const Navbar = () => {
               Results
             </a>
           </Link>
- <IconContext.Provider
-            value={{ color: 'white', className: 'global-class-name' }}
-          >
-            <span style={{ color: 'white' }}>
-              <h1 class="btn btn-ghost rounded-btn btn-sm text-xl text-white">
-                <GrCircleInformation color="white" />
-              </h1>
-            </span>
-          </IconContext.Provider>
         </div>
       </div>
       <div class="navbar-end"></div>

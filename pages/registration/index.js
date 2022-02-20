@@ -116,7 +116,7 @@ export default class Registration extends React.Component {
       // Catch any errors for any of the above operations.
       console.error(error)
       alert(
-        `Failed to load web3, accounts, or contract data. Check console for details (f12).`
+        `Failed to load web3, accounts, or contract. Check console for details (f12).`
       )
     }
   }
@@ -137,7 +137,7 @@ export default class Registration extends React.Component {
       return (
         <>
           {this.state.isAdmin ? <NavbarAdmin /> : <Navbarvoter />}
-          <center>Loading accounts and data, please wait...</center>
+          <center>Loading Web3, accounts, and contract...</center>
         </>
       )
     }
