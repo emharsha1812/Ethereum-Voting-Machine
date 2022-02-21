@@ -83,6 +83,7 @@ To get these, you can visit the [Matic Faucet](https://faucet.polygon.technology
 
 1. Run this command in root of the project directory:
 ```shell
+$ truffle compile
 $ truffle migrate --reset --network matic
 ```
 Contract will be deployed on Matic's Mumbai Testnet
