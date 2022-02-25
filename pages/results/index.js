@@ -187,10 +187,10 @@ function displayWinner(candidates) {
 export function displayResults(candidates) {
   const renderResults = (candidate) => {
     return (
-      <tr>
-        <td>{candidate.id}</td>
-        <td>{candidate.header}</td>
-        <td>{candidate.voteCount}</td>
+      <tr className="m-2">
+        <td className="px-4">{candidate.id}</td>
+        <td className="px-4">{candidate.header}</td>
+        <td className="px-4">{candidate.voteCount}</td>
       </tr>
     )
   }
@@ -222,7 +222,7 @@ export function displayResults(candidates) {
               className="container-item"
               style={{ border: '1px solid black' }}
             >
-              <center>Made with ���by Team Cavaliars�</center>
+              <center>Made with ❤️ in India by Team Cavaliers 🔥</center>
             </div>
           </>
         )}
